@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rabbit Details</title>
+</head>
+<style>
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #fdfaf6;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #ffedbc, #ff9a9e);
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+/* Main Content */
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #444;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+  font-size: 0.9rem;
+}
+
+</style>
+<body>
+  <br>
+    <center><img src="rabbit.jpg" width="300" height="300"></center>
+  <header class="header">
+    <h1>All About Rabbits</h1>
+    <p>Your guide to understanding these adorable creatures</p>
+  </header>
+  <main class="content">
+    <section class="card">
+      <h2>Appearance</h2>
+      <p>Rabbits are small mammals with fluffy fur, long ears, and a short, fluffy tail. They come in various colors and sizes.</p>
+    </section>
+    <section class="card">
+      <h2>Habitat</h2>
+      <p>Rabbits are found worldwide and prefer environments like meadows, forests, grasslands, and even deserts.</p>
+    </section>
+    <section class="card">
+      <h2>Diet</h2>
+      <p>Rabbits are herbivores and primarily eat grass, vegetables, and leafy plants.</p>
+    </section>
+    <section class="card">
+      <h2>Fun Fact</h2>
+      <p>Rabbits have almost 360-degree vision and can see behind them without turning their heads!</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2024 Rabbit Enthusiasts. All rights reserved.</p>
+  </footer>
+</body>
+</html>
